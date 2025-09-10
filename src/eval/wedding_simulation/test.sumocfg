@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+  <input>
+    <!-- Your network with sidewalks + minimal crossings -->
+    <net-file value="network.xml"/>
+
+    <!-- The sorted & patched vehicle/person file -->
+    <route-files value="routes.xml"/>
+
+    <additional-files value="gtfs_pt_stops.add.xml,validated.gtfs_pt_vehicles.add.xml,edge_data.add.xml"/>
+  </input>
+
+  <time>
+    <begin value="0"/>
+    <end   value="86400"/>
+    <step-length value="1"/>
+  </time>
+
+  <report>
+    <log value="sumo.log"/>
+  </report>
+
+  <processing>
+    <tripinfo-output value="tripinfo.xml"/>
+  </processing>
+
+</configuration>
