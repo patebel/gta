@@ -1,4 +1,4 @@
-# Traffic Simulacra: Generative Agents for Simulating Realistic Mobility Behavior
+# GTA: Generative Traffic Agents for Simulating Realistic Mobility Behavior
 
 ![Alt text](gta_teaser_github.png)
 
